@@ -1,0 +1,19 @@
+print ("escreva a ou b para responder a pergunta")
+
+print ("     ")
+print ("     ")
+
+print (" quanto é 690 * 100001 + 1771465238 + 67 = ?")
+print ("     ")
+print (" (a)1840465995           (b)18444065995")
+print ("    ")
+resposta = (input("a resposta é letra (a) ou (b)?"))
+
+if ("resposta = a "):
+    print ("resposta correta!")
+
+elif ("resposta = b "):
+    print ("resposta errada!")
+
+elif ("resposta != (a) end (b) "):
+    print ("responda apenas (a) ou (b) ")
